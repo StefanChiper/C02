@@ -6,11 +6,11 @@
 /*   By: schiper <schiper@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 15:14:51 by erian             #+#    #+#             */
-/*   Updated: 2024/07/08 12:21:30 by schiper          ###   ########.fr       */
+/*   Updated: 2024/07/11 20:34:31 by schiper          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+// #include <unistd.h>
 
 void	ft_putchar(char c)
 {
@@ -46,9 +46,9 @@ void	ft_putstr_non_printable(char *str)
 	}
 }
 
-int	main(void)
-{
-	char	str[] = "Coucou\ntu vas bien\t\v\0 n ?";
-	ft_putstr_non_printable(str);
-	return (0);
-}
+// int	main(void)
+// {
+// 	char	str[] = "Coucou\ntu vas bien\t\v\0 n ?";
+// 	ft_putstr_non_printable(str);
+// 	return (0);
+// }
